@@ -23,7 +23,12 @@ class ContactData extends Component {
                             <div >
                                 <ListGroup.Item action variant="light"  class="list-item" id={item.id} onClick={this.handleClick} >
                                     <input type="checkbox" style={{ height: "20px", width: "20px" }} />
-                                    <span style={{ marginLeft: "20px" }}>{item.fullName}</span><span style={{ float: "right" }}>{item.company}</span>
+                                    <span style={{ marginLeft: "20px" }}>
+                                    <img src="https://mk0analyticsindf35n9.kinstacdn.com/wp-content/uploads/2018/12/image.jpg"
+                                            alt="image1"
+                                            style={{ borderRadius: "100%", height: "30px", width: "30px"}}
+                                        />&nbsp;
+                                        {item.fullName}</span><span style={{ float: "right" }}>{item.company}</span>
                                 </ListGroup.Item>
                             </div>
                         )

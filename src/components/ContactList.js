@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAddressBook, faPlus, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faAddressBook, faPlusSquare, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { Dropdown, DropdownButton, Button, Row, Col, Container, Modal } from 'react-bootstrap';
 import ContactData from './ContactData';
 import AddContactForm from './AddContactForm';
@@ -54,15 +54,16 @@ export default class ContactList extends Component {
                         </div>
                     </Col>
                     <Col xs={6}>
-                        <Button onClick={this.handleShow} style={{ marginRight: "5px" }} size="sm" variant="" style={{background: "linear-gradient(to right, #ff0000 50%, #ff3399 91%)"}}><FontAwesomeIcon icon={faPlus} />
-                            &nbsp;<span style={{color:"white",fontSize:"15px"}}>Add Contact</span>
+                        <Button onClick={this.handleShow} style={{ marginRight: "5px" }} size="sm" variant="" style={{background: "linear-gradient(to right, #ff0000 50%, #ff3399 91%)"}}>
+                            <span style={{color:"white",fontSize:"15px"}}><FontAwesomeIcon icon={faPlusSquare} />
+                            &nbsp;<span >Add Contact</span></span>
                         </Button>
                     </Col>
                 </Row>
                 <Row>
                     <Col md={6}>
                         <div style={{ backgroundColor: "lightgrey", alignItems: "center", height: "40px", padding: "5px 10px 5px 20px" }}>
-                            <FontAwesomeIcon icon={faPlus} /><span style={{ marginLeft: "25px" }}>Basic Info</span><span style={{ float: "right", marginRight: "20px" }}>Company</span>
+                            <FontAwesomeIcon icon={faPlusSquare} /><span style={{ marginLeft: "25px" }}>Basic Info</span><span style={{ float: "right", marginRight: "20px" }}>Company</span>
                         </div>
                         <ContactData />
                     </Col>
