@@ -1,0 +1,92 @@
+{
+  "contacts": [
+    {
+      "id": "101",
+      "fullName": "Vivek Chaurasia",
+      "email": "vivek.kch05@gmail.com",
+      "phoneNo": "+91-7062424346",
+      "company": "GlobalLogic",
+      "address": "Noida Sector-41"
+    },
+    {
+      "id": "102",
+      "fullName": "Sidharth Singh",
+      "email": "sid@gmail.com",
+      "phoneNo": "+91-7043567892",
+      "company": "Marlabs",
+      "address": "Bangalore"
+    },
+    {
+      "id": "103",
+      "fullName": "RaviShankar Chauhan",
+      "email": "ravi@gmail.com",
+      "phoneNo": "+91-1234567890",
+      "company": "Mindtree",
+      "address": "Bangalore"
+    },
+    {
+      "id": "104",
+      "fullName": "Arshad Aalam",
+      "email": "arshad@gmail.com",
+      "phoneNo": "+91-9678563429",
+      "company": "Sap Labs",
+      "address": "Bangalore"
+    },
+    {
+      "id": "105",
+      "fullName": "Raj Babar",
+      "email": "raj@gmail.com",
+      "phoneNo": "+91-70675342456",
+      "company": "Google",
+      "address": "Bangalore"
+    },
+    {
+      "id": "106",
+      "fullName": "Vipin Kumar",
+      "email": "vipin@gmail.com",
+      "phoneNo": "+91-9588097653",
+      "company": "GlobalLogic",
+      "address": "Noida Sector-34"
+    },
+    {
+      "id": "108",
+      "fullName": "Neha kumari",
+      "email": "neha@gmail.com",
+      "phoneNo": "+91-7062424346",
+      "company": "Tcs",
+      "address": "Bangalore"
+    },
+    {
+      "id": "109",
+      "fullName": "Saurabh Kushwaha",
+      "email": "saurabh@gmail.com",
+      "phoneNo": "+91-7062424346",
+      "company": "GlobalLogic",
+      "address": "Noida"
+    },
+    {
+      "id": "110",
+      "fullName": "Pooja Rastogi",
+      "email": "pooja@gmail.com",
+      "phoneNo": "8956723456",
+      "company": "Microsoft",
+      "address": "Bangalore"
+    },
+    {
+      "id": "111",
+      "fullName": "Rasmi Nehra",
+      "email": "rashmi@gmail.com",
+      "phoneNo": "7865435678",
+      "company": "Cernere",
+      "address": "Bangalore"
+    },
+    {
+      "id": "112",
+      "fullName": "Tanu Sharma",
+      "email": "tanu@gmail.com",
+      "phoneNo": "8976524352",
+      "company": "GlobalSpace ",
+      "address": "Mumbai"
+    }
+  ]
+}
