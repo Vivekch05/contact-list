@@ -1,0 +1,10 @@
+first of clone it 
+
+after that start the json-serve
+inside go to src directory then use command
+json-server --watch db.json
+
+after that start the project
+
+in this project i had created json server db.json and apllying all crud operation on it.
+
